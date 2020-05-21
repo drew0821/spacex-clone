@@ -1,0 +1,185 @@
+.img {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/space.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 75vw;
+    justify-content: space-between;
+}  
+.header {
+    display: flex;
+    background-color: rgb(58, 54, 54);
+    height: 10vh;
+    width: 100%;
+    color: white;
+    
+    padding: 10px;
+    align-items: center;
+}
+h1 {
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+}
+li {
+    display: flex;
+
+}
+.list-1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Orbitron', sans-serif;}
+.list-2 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Khand', sans-serif;
+
+}
+.bar {
+    display: flex;
+    background-color: darkgray;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-end;
+    justify-self: self-start;
+    height: 18vh;
+    width: 100%;
+    opacity: .8;
+
+}
+.bar-footer {
+    background-color: black;
+    height: 5vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+}
+.blank-box {
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 15vw;
+    border: solid grey 1px;
+}
+.text-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    width: 15vw;
+    border: solid grey 1px;
+    
+}
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+button {
+    border-radius: 10px;
+    height: 5vh;
+}
+.star {
+    font-size: xx-large;
+    font-family: 'Orbitron', sans-serif;
+}
+.text-1 {
+    display: flex;
+    width: 75vw;
+    height: 22vh;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Khand', sans-serif;
+    font-size: 25px;
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75vw;
+    height: 60vh;
+    
+}
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 15vw;
+    height: 25vh;
+    border: solid black 1px;
+    align-items: center;
+    margin: 30px;
+    box-shadow: black 2px 4px;
+}
+.img-1 {
+    background-image: url(images/space1.jpeg);
+    width: 11vw;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+.text-2 {
+    font-family: 'Alfa Slab One', cursive; 
+}
+.link {
+    color: white;
+}
+.box-2 {
+    margin: 30px;
+    width: 15vw;
+    height: 25vh;
+    box-shadow: black 2px 4px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-2 {
+    background-image: url(images/starwarsshipscenes-2-yt-1510004191258.jpg);
+    width: 10vw;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-3 {
+    margin: 30px;
+    width: 15vw;
+    height: 25vh;
+    border: solid black 1px;
+    box-shadow: black 2px 4px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.img-3 {
+    background-image: url(images/Death-Star-I-copy_36ad2500.jpeg);
+    width: 10vw;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.parent-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    height: 5vh;
+    width: 75vw;
+}
+.bottom-list {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: small;
+}
+.text-3 {
+    color: gray;
+}
